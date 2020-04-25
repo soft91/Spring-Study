@@ -3,6 +3,7 @@ package com.yoon.service;
 import org.springframework.data.domain.Page;
 
 import com.yoon.domain.Board;
+import com.yoon.domain.Search;
 
 public interface BoardService {
 	void insertBoard(Board board);
@@ -11,5 +12,5 @@ public interface BoardService {
 	
 	Board getBoard(Board board);
 	
-	Page<Board> getBoardList(Board board);
+	Page<Board> getBoardList(Search search);
 }
