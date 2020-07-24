@@ -1,4 +1,4 @@
-package com.springbook.biz.user.impl;
+package com.springbook.biz.user.Impl;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;

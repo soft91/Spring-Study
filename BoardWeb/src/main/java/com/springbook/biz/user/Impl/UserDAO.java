@@ -1,4 +1,4 @@
-package com.springbook.biz.user.impl;
+package com.springbook.biz.user.Impl;
 
 import java.sql.Connection;
 import java.sql.PreparedStatement;
