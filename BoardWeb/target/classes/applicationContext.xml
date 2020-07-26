@@ -11,6 +11,8 @@
 	<!-- Component Scan : 따로 Bean을 등록하지 않아도 @Component 어노테이션으로 Bean을 등록할 수 있다. base-package를 통해 package안에 있는 모든 class 파일을 컴포넌트 화 시킬 수 있다. -->
 	<context:component-scan base-package="com.springbook.biz"></context:component-scan>
 	
+	<aop:aspectj-autoproxy></aop:aspectj-autoproxy>
+	
 	<bean id="around" class="com.springbook.biz.common.AroundAdvice"/>
 	
 	<aop:config>
